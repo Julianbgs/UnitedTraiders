@@ -275,11 +275,19 @@ textarea:active {
   box-sizing: border-box;
 }
 
+.header__login:hover {
+  color: white;
+}
+
 .header__buy {
   color: white;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+.header__buy:hover {
+  color: white;
 }
 
 .baner {
@@ -312,6 +320,191 @@ textarea:active {
   font-weight: 400;
   line-height: 30px;
   margin-top: 80px;
+}
+
+.technology {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-bottom: 80px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.technology__title {
+  width: 100%;
+  text-align: center;
+  color: #19263f;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 75px;
+}
+
+.technology__elem {
+  padding: 25px 50px 45px 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 100px;
+  background-color: #fafafa;
+}
+
+.technology__elem-title {
+  width: 100%;
+  text-align: center;
+  color: #19263f;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.technology__elem-descr {
+  width: 100%;
+  color: #333;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 35px;
+}
+
+.technology__img-wrap {
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.technology__img-wrap img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.technology__button-box {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.technology__button-more {
+  color: #1657ab;
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.products {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.products__title {
+  width: 100%;
+  text-align: center;
+  color: #19263f;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.products__descr {
+  width: 100%;
+  color: black;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 95px;
+  padding-right: 95px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 45px;
+}
+
+.products__element {
+  margin-top: 85px;
+}
+
+.products__element-title {
+  width: 100%;
+  text-align: center;
+  color: #19263f;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 35px;
+}
+
+.products__element-descr {
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+
+.products__element-descr--mod {
+  color: #162541;
+}
+
+.products__element-underline {
+  text-decoration: underline;
+  padding-left: 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #000;
+}
+
+.products__element-underline:hover {
+  color: black;
+}
+
+.products__img-wrap {
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.products__img-wrap img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.products__button-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.products__button-view {
+  padding: 15px 40px;
+  border: 1px solid #80b450;
+  border-radius: 3px;
+  color: #19263f;
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=styles.css.map */
