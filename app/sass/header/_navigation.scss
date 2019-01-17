@@ -1,0 +1,34 @@
+.header {
+
+  &__navigation {
+    float: left;
+    width: 45%;
+    padding-top: 40px;
+    padding-left: 80px;
+    box-sizing: border-box;
+  }
+
+  &__menu {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+
+      li{
+          margin-left: 40px;
+
+          a{
+            color: white;
+            font-family: $PTSans;
+            font-size: 16px;
+            font-weight: 400;
+          }
+      }
+  }
+
+  ul.header__menu li:first-child{
+    margin-left: 0;
+  }
+}

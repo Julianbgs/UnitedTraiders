@@ -1,3 +1,103 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Open Sans Light Italic"), local(OpenSans-LightItalic), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hrIqc.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hrIqM.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hrIqU.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Open Sans Italic"), local(OpenSans-Italic), url(//fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Zdck.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Zdcs.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Open Sans SemiBold Italic"), local(OpenSans-SemiBoldItalic), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhrIqc.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhrIqM.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhrIqU.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Open Sans Bold Italic"), local(OpenSans-BoldItalic), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhrIqc.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhrIqM.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhrIqU.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold Italic"), local(OpenSans-ExtraBoldItalic), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hrIqc.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hrIqM.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hrIqU.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local(OpenSans-Light), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuht.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhv.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local(OpenSans-Regular), url(//fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0f.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0d.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local(OpenSans-SemiBold), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuht.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhv.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local(OpenSans-Bold), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuht.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhv.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold"), local(OpenSans-ExtraBold), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUuht.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUuhp.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUuhv.woff) format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: local("PT Sans Italic"), local(PTSans-Italic), url(//fonts.gstatic.com/s/ptsans/v9/jizYRExUiTo99u79D0e0x8mM.eot?#) format("eot"), url(//fonts.gstatic.com/s/ptsans/v9/jizYRExUiTo99u79D0e0x8mI.woff2) format("woff2"), url(//fonts.gstatic.com/s/ptsans/v9/jizYRExUiTo99u79D0e0x8mO.woff) format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: local("PT Sans Bold Italic"), local(PTSans-BoldItalic), url(//fonts.gstatic.com/s/ptsans/v9/jizdRExUiTo99u79D0e8fOydLxUZ.eot?#) format("eot"), url(//fonts.gstatic.com/s/ptsans/v9/jizdRExUiTo99u79D0e8fOydLxUd.woff2) format("woff2"), url(//fonts.gstatic.com/s/ptsans/v9/jizdRExUiTo99u79D0e8fOydLxUb.woff) format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), local(PTSans-Regular), url(//fonts.gstatic.com/s/ptsans/v9/jizaRExUiTo99u79D0KEwQ.eot?#) format("eot"), url(//fonts.gstatic.com/s/ptsans/v9/jizaRExUiTo99u79D0KExQ.woff2) format("woff2"), url(//fonts.gstatic.com/s/ptsans/v9/jizaRExUiTo99u79D0KEww.woff) format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT Sans Bold"), local(PTSans-Bold), url(//fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0O6tKQ.eot?#) format("eot"), url(//fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0O6tLQ.woff2) format("woff2"), url(//fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0O6tKw.woff) format("woff");
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i");
+
 html {
   width: 100%;
 }
@@ -84,8 +184,134 @@ textarea:active {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1180px;
   }
+}
+
+.header__navigation {
+  float: left;
+  width: 45%;
+  padding-top: 40px;
+  padding-left: 80px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header__menu {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.header__menu li {
+  margin-left: 40px;
+}
+
+.header__menu li a {
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header ul.header__menu li:first-child {
+  margin-left: 0;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.header__logo {
+  float: left;
+  width: 249px;
+  height: 58px;
+  overflow: hidden;
+  margin-top: 21px;
+  margin-left: 60px;
+}
+
+.header__logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.header__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-right: 100px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header__login {
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 25px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header__buy {
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.baner {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/bg-baner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.baner__title {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 48px;
+  margin-top: 190px;
+}
+
+.baner__descr {
+  width: 100%;
+  text-align: center;
+  color: #fafafa;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 80px;
 }
 
 /*# sourceMappingURL=styles.css.map */

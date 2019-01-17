@@ -1,16 +1,29 @@
 header.header
     .container
-
-        a(href="/").header__logo
+        .header__logo
+            img(src="img/logo.png" alt="")
 
         nav.header__navigation
+            ul.header__menu
+                li
+                    a(href="#")
+                        | Products
 
-            a#mobile-menu.header__trigger
-                span
-                span
-                span
+                li
+                    a(href="#")
+                        | News & Events
 
-            //    вызов миксина в переменную 'list' с указаним элементов массива(названий страниц)
-            - var list = ['главнаЯ', 'КЕЙСЫ', 'СИСТЕМЫ', 'УСЛУГИ', 'ТЕМЫ', 'МЫ', 'ПАРТНЕРЫ', 'КОНТАКТЫ'];
-            - var link = ['/', '#', '#', '#', '#', '#', '#', '#'];
-                +top-menu(list, link)
+                li
+                    a(href="#")
+                        | Support
+
+                li
+                    a(href="#")
+                        | Contacts
+
+        .header__box
+            a(href="#").header__login
+                | Login
+
+            a(href="#").header__buy
+                | Buy now

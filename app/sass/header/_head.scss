@@ -1,0 +1,45 @@
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+
+  &__logo {
+    float: left;
+    width: 249px;
+    height: 58px;
+    overflow: hidden;
+    margin-top: 21px;
+    margin-left: 60px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__box{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-right: 100px;
+    box-sizing: border-box;
+  }
+
+  &__login{
+    color: white;
+    font-family: $PTSans;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+
+  &__buy{
+    color: white;
+    font-family: $PTSans;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
