@@ -19,12 +19,23 @@
   }
 
   &__box{
+    width: 25%;
+    float: left;
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
     padding-top: 40px;
     padding-right: 100px;
     box-sizing: border-box;
+
+    @include breakpoint(max-width 1024px){
+      padding-right: 0;
+    }
+
+    @include breakpoint(max-width 480px){
+      width: 100%;
+      padding-right: 100px;
+    }
   }
 
   &__login{
@@ -48,6 +59,69 @@
 
     &:hover{
       color: white;
+    }
+  }
+
+  &__trigger {
+    display: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 80px;
+    right: 20px;
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, .4);
+    z-index: 15;
+    cursor: pointer;
+
+    @include breakpoint(max-width 480px) {
+      display: block;
+    }
+
+    span {
+      display: block;
+      height: 2px;
+      width: 18px;
+      background-color: #000;
+      position: absolute;
+      left: 50%;
+      margin-left: -9px;
+      top: 50%;
+      margin-top: -1px;
+    }
+
+    span:first-of-type {
+      transition: all 0.2s;
+      margin-top: -6px;
+      content: '';
+    }
+    span:last-of-type {
+      transition: all 0.2s;
+      margin-top: 4px;
+      content: '';
+    }
+  }
+
+  &__trigger.js-trigger-active {
+    background-image: linear-gradient(to top, #fe4e3a 0%, #f6373d 50%, #ff5c34 100%);
+
+    span:nth-of-type(2) {
+      display: none;
+    }
+
+    span {
+      background-color: #fff;
+
+      &:first-of-type {
+        transform: rotate(135deg);
+        margin-top: 0;
+      }
+
+      &:last-of-type {
+        transform: rotate(-134deg);
+        margin-top: 0;
+      }
     }
   }
 }

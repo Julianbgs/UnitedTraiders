@@ -6,6 +6,16 @@
     padding-top: 40px;
     padding-left: 80px;
     box-sizing: border-box;
+
+    @include breakpoint(max-width 1024px){
+      width: 30%;
+      padding-left: 0;
+    }
+
+    @include breakpoint(max-width 480px){
+      width: 100%;
+      padding-left: 0;
+    }
   }
 
   &__menu {
@@ -16,19 +26,50 @@
     display: flex;
     flex-direction: row;
 
+    @include breakpoint(max-width 1024px){
+      flex-direction: column;
+    }
+
+    @include breakpoint(max-width 480px){
+      display: none;
+      background-color: white;
+      margin-top: 30px;
+    }
+
       li{
           margin-left: 40px;
+
+        @include breakpoint(max-width 480px){
+          width: 100%;
+          text-align: center;
+          margin-top: 7px;
+          margin-bottom: 7px;
+          margin-left: 0;
+        }
 
           a{
             color: white;
             font-family: $PTSans;
             font-size: 16px;
             font-weight: 400;
+
+            @include breakpoint(max-width 480px){
+              color: #000;
+            }
           }
       }
   }
 
   ul.header__menu li:first-child{
     margin-left: 0;
+
+    @include breakpoint(max-width 1024px){
+      margin-left: 40px;
+    }
+
+    @include breakpoint(max-width 480px){
+      margin-left: 0;
+    }
+
   }
 }

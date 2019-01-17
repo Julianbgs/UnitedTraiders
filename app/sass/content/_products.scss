@@ -2,6 +2,8 @@
   position: relative;
   float: left;
   width: 100%;
+  padding-bottom: 100px;
+  box-sizing: border-box;
 
   &__title{
     width: 100%;
@@ -23,6 +25,11 @@
     padding-right: 95px;
     box-sizing: border-box;
     margin-top: 45px;
+
+    @include breakpoint(max-width 768px){
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   &__element{
