@@ -39,6 +39,7 @@ $(document).ready(function () {
     });
 
     // close script
+    elemAnimate();
     $(window).scroll(function () {
         elemAnimate();
     })

@@ -76,7 +76,7 @@
   animation-name: movingBox;
 
   /* Укажем длительность анимации */
-  animation-duration: 2300ms;
+  animation-duration: 1300ms;
 
   /* Укажем - сколько раз мы хотим
       повторить анимацию */
@@ -114,7 +114,7 @@
   animation-name: rightAnimate;
 
   /* Укажем длительность анимации */
-  animation-duration: 2300ms;
+  animation-duration: 1300ms;
 
   /* Укажем - сколько раз мы хотим
       повторить анимацию */
@@ -152,7 +152,7 @@
   animation-name: leftAnimate;
 
   /* Укажем длительность анимации */
-  animation-duration: 2300ms;
+  animation-duration: 1300ms;
 
   /* Укажем - сколько раз мы хотим
       повторить анимацию */
@@ -189,7 +189,7 @@
 
 .animate-stop {
   animation-name: stopAnimate;
-  animation-duration: 2300ms;
+  animation-duration: 1300ms;
   animation-iteration-count: 1;
   opacity: 1!important;
 }
@@ -201,5 +201,9 @@
   100% {
     opacity: 0.8;
   }
+}
+
+.opacity {
+  opacity: 0;
 }
 

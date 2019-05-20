@@ -572,8 +572,8 @@ textarea:active {
   -webkit-animation-name: movingBox;
   animation-name: movingBox;
   /* Укажем длительность анимации */
-  -webkit-animation-duration: 2300ms;
-  animation-duration: 2300ms;
+  -webkit-animation-duration: 1300ms;
+  animation-duration: 1300ms;
   /* Укажем - сколько раз мы хотим
       повторить анимацию */
   -webkit-animation-iteration-count: 1;
@@ -621,8 +621,8 @@ textarea:active {
   -webkit-animation-name: rightAnimate;
   animation-name: rightAnimate;
   /* Укажем длительность анимации */
-  -webkit-animation-duration: 2300ms;
-  animation-duration: 2300ms;
+  -webkit-animation-duration: 1300ms;
+  animation-duration: 1300ms;
   /* Укажем - сколько раз мы хотим
       повторить анимацию */
   -webkit-animation-iteration-count: 1;
@@ -670,8 +670,8 @@ textarea:active {
   -webkit-animation-name: leftAnimate;
   animation-name: leftAnimate;
   /* Укажем длительность анимации */
-  -webkit-animation-duration: 2300ms;
-  animation-duration: 2300ms;
+  -webkit-animation-duration: 1300ms;
+  animation-duration: 1300ms;
   /* Укажем - сколько раз мы хотим
       повторить анимацию */
   -webkit-animation-iteration-count: 1;
@@ -717,8 +717,8 @@ textarea:active {
 .animate-stop {
   -webkit-animation-name: stopAnimate;
   animation-name: stopAnimate;
-  -webkit-animation-duration: 2300ms;
-  animation-duration: 2300ms;
+  -webkit-animation-duration: 1300ms;
+  animation-duration: 1300ms;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
@@ -747,6 +747,11 @@ textarea:active {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     opacity: 0.8;
   }
+}
+
+.opacity {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0;
 }
 
 .products {
