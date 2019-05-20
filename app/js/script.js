@@ -1,3 +1,26 @@
+function elemAnimate() {
+    $('.main-animate').each(function () {
+        if($(this).offset().top < $(document).scrollTop() + $(window).height() - 50 && !$(this).hasClass('animate')) {
+            $(this).addClass('animate')
+        }
+    });
+    $('.right-animate').each(function () {
+        if($(this).offset().top < $(document).scrollTop() + $(window).height() - 50 && !$(this).hasClass('r-animate')) {
+            $(this).addClass('r-animate')
+        }
+    });
+    $('.left-animate').each(function () {
+        if($(this).offset().top < $(document).scrollTop() + $(window).height() - 50 && !$(this).hasClass('l-animate')) {
+            $(this).addClass('l-animate')
+        }
+    });
+    $('.stop-animate').each(function () {
+        if($(this).offset().top < $(document).scrollTop() + $(window).height() - 50 && !$(this).hasClass('animate-stop')) {
+            $(this).addClass('animate-stop')
+        }
+    })
+}
+
 $(document).ready(function () {
 
     //mobile menu
@@ -16,4 +39,7 @@ $(document).ready(function () {
     });
 
     // close script
+    $(window).scroll(function () {
+        elemAnimate();
+    })
 });

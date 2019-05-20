@@ -35,6 +35,10 @@
   &__element{
     margin-top: 85px;
 
+    &--right {
+      opacity: 0;
+    }
+
     &-title{
       width: 100%;
       text-align: center;

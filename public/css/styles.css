@@ -95,6 +95,8 @@
   font-weight: 700;
   src: local("PT Sans Bold"), local(PTSans-Bold), url(//fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0O6tKQ.eot?#) format("eot"), url(//fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0O6tLQ.woff2) format("woff2"), url(//fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0O6tKw.woff) format("woff");
 }
+
+@charset "utf-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i");
 
@@ -512,6 +514,8 @@ textarea:active {
   box-sizing: border-box;
   margin-top: 100px;
   background-color: #fafafa;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0;
 }
 
 .technology__elem-title {
@@ -522,6 +526,8 @@ textarea:active {
   font-size: 20px;
   font-weight: 700;
   margin-top: 30px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0;
 }
 
 .technology__elem-descr {
@@ -559,6 +565,188 @@ textarea:active {
   font-size: 15px;
   font-weight: 400;
   line-height: 36px;
+}
+
+.animate {
+  /* Выберем анимацию */
+  -webkit-animation-name: movingBox;
+  animation-name: movingBox;
+  /* Укажем длительность анимации */
+  -webkit-animation-duration: 2300ms;
+  animation-duration: 2300ms;
+  /* Укажем - сколько раз мы хотим
+      повторить анимацию */
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  /* Это приводит к выполнению анимации
+      в обратном порядке на каждой нечётной итерации */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+  opacity: 1 !important;
+}
+
+@-webkit-keyframes movingBox {
+  0% {
+    -webkit-transform: translate(0, 200px);
+    transform: translate(0, 200px);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    opacity: 0.4;
+  }
+
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    opacity: 0.8;
+  }
+}
+
+@keyframes movingBox {
+  0% {
+    -webkit-transform: translate(0, 200px);
+    transform: translate(0, 200px);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    opacity: 0.4;
+  }
+
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    opacity: 0.8;
+  }
+}
+
+.r-animate {
+  /* Выберем анимацию */
+  -webkit-animation-name: rightAnimate;
+  animation-name: rightAnimate;
+  /* Укажем длительность анимации */
+  -webkit-animation-duration: 2300ms;
+  animation-duration: 2300ms;
+  /* Укажем - сколько раз мы хотим
+      повторить анимацию */
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  /* Это приводит к выполнению анимации
+      в обратном порядке на каждой нечётной итерации */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+  opacity: 1 !important;
+}
+
+@-webkit-keyframes rightAnimate {
+  0% {
+    -webkit-transform: translate(200px, 0);
+    transform: translate(200px, 0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    opacity: 0.4;
+  }
+
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    opacity: 0.8;
+  }
+}
+
+@keyframes rightAnimate {
+  0% {
+    -webkit-transform: translate(200px, 0);
+    transform: translate(200px, 0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    opacity: 0.4;
+  }
+
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    opacity: 0.8;
+  }
+}
+
+.l-animate {
+  /* Выберем анимацию */
+  -webkit-animation-name: leftAnimate;
+  animation-name: leftAnimate;
+  /* Укажем длительность анимации */
+  -webkit-animation-duration: 2300ms;
+  animation-duration: 2300ms;
+  /* Укажем - сколько раз мы хотим
+      повторить анимацию */
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  /* Это приводит к выполнению анимации
+      в обратном порядке на каждой нечётной итерации */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+  opacity: 1 !important;
+}
+
+@-webkit-keyframes leftAnimate {
+  0% {
+    -webkit-transform: translateX(-200px);
+    transform: translateX(-200px);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    opacity: 0.4;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    opacity: 0.8;
+  }
+}
+
+@keyframes leftAnimate {
+  0% {
+    -webkit-transform: translateX(-200px);
+    transform: translateX(-200px);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    opacity: 0.4;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    opacity: 0.8;
+  }
+}
+
+.animate-stop {
+  -webkit-animation-name: stopAnimate;
+  animation-name: stopAnimate;
+  -webkit-animation-duration: 2300ms;
+  animation-duration: 2300ms;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+  opacity: 1 !important;
+}
+
+@-webkit-keyframes stopAnimate {
+  0% {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    opacity: 0.4;
+  }
+
+  100% {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    opacity: 0.8;
+  }
+}
+
+@keyframes stopAnimate {
+  0% {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    opacity: 0.4;
+  }
+
+  100% {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    opacity: 0.8;
+  }
 }
 
 .products {
@@ -602,6 +790,11 @@ textarea:active {
 
 .products__element {
   margin-top: 85px;
+}
+
+.products__element--right {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0;
 }
 
 .products__element-title {
